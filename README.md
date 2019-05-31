@@ -7,7 +7,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 This is a very simple Java Calculator that runs in the Command Prompt / Terminal. Made December 17, 2018 in order work on my Java skills.
 
-```markdown
+```java
 import java.util.Scanner;
 
 public class Calc {
