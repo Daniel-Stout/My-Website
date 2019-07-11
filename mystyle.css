@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Limelight&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One|Ubuntu&display=swap');
 
 body {
   font-family: 'Ubuntu', sans-serif;
@@ -8,7 +7,8 @@ body {
 }
 h1 {
   margin-top: 20px;
-  font-family: 'Limelight', cursive;
+  font-family: 'Poiret One', cursive;
+  font-size: 36px;
 }
 ul {
   list-style-type: none;
