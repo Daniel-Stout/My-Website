@@ -43,8 +43,7 @@ li a {
 }
 
 video {
-  margin-top: 20px;
-  margin-left: 20px;
+  padding: 14px 16px; 
 }
 
 li a:hover {
