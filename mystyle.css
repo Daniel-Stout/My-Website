@@ -28,6 +28,10 @@ pc2 {
   font-size: 84%;
 }
 
+iframe {
+  margin-top: 20px;
+}
+
 li {
   float: left;
   position: sticky;
@@ -40,10 +44,6 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
   position: sticky;
-}
-
-video {
-  padding: 14px 16px; 
 }
 
 li a:hover {
