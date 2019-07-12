@@ -42,7 +42,11 @@ li a {
   position: sticky;
 }
 
-/* Change the link color to #111 (black) on hover */
+video {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
 li a:hover {
   background-color: #111;
   position: sticky;
