@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Poiret+One|Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
 
 body {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'PT Sans', sans-serif;
   background-image: url("images/01-whitepaper.png");
 
 }
