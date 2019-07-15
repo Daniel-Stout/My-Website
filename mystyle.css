@@ -92,6 +92,11 @@ li a:hover {
 .menu a:visited {
   color: lightgrey;
 }
+
+.menu a:link {
+  color: white;
+}
+
 a:link {
   color: #0fc105;
 }
