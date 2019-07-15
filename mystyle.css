@@ -7,9 +7,8 @@
   font-family: 'Poiret One';
   src: url('fonts/PoiretOne-Regular.ttf');
 }
-body {
 
-  /*background-image: url("images/01-whitepaper.png");*/
+body {
   background-color: #333333;
 }
 
@@ -91,7 +90,7 @@ li a:hover {
 }
 
 .menu a:visited {
-  color: white;
+  color: lightgrey;
 }
 a:link {
   color: #0fc105;
