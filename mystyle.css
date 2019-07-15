@@ -1,28 +1,54 @@
-@import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300&display=swap');
-
-body {
-  font-family: 'Source Sans Pro', sans-serif;
-  background-image: url("images/01-whitepaper.png");
-
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('fonts/Source Sans Pro/SourceSansPro.ttf');
 }
+
+@font-face {
+  font-family: 'Poiret One';
+  src: url('fonts/PoiretOne-Regular.ttf');
+}
+body {
+
+  /*background-image: url("images/01-whitepaper.png");*/
+  background-color: #333333;
+}
+
 h1 {
   margin-top: 20px;
   font-family: 'Poiret One', cursive;
   font-size: 36px;
+  color: #c0ffb6f0;
+}
+
+h3 {
+
 }
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #292929;
   position: sticky;
+  color: white;
+  border-radius: 5px;
 }
 
-p {
-  margin-right: 100px;
-  text-indent: 40px;
+.video {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  color: #7d9679f0;
+}
+
+.text {
+  /*background-image: url("images/03-whitepaper.png");*/
+  color: #7d9679f0;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 pc2 {
@@ -30,7 +56,6 @@ pc2 {
 }
 
 iframe {
-  margin-top: 20px;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -38,6 +63,8 @@ iframe {
 li {
   float: left;
   position: sticky;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
 }
 
 li a {
@@ -47,19 +74,34 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
   position: sticky;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: #585858;
   position: sticky;
+  border-radius: 5px;
+  color: white;
 }
 .active {
   background-color: #4CAF50;
+  border-radius: 5px;
+  position: sticky;
+  color: white;
 }
 
-.footer {
-  position: absolute;
-  left: 0;
-  bottom: 10px;
-  width: 100%;
+.menu a:visited {
+  color: white;
+}
+a:link {
+  color: #0fc105;
+}
+a:visited {
+  color: green;
+}
+a:hover {
+  color: green;
+}
+a:active {
+  color: blue;
 }
